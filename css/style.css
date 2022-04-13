@@ -31,7 +31,6 @@ html {
    font-size: 24px;
    text-align: center;
    border: 2px solid rgba(0, 0, 0, 0.1);
-   position: relative;
 }
 
 .navbar-light .navbar-toggler:focus {
@@ -42,22 +41,22 @@ html {
    line-height: 33px;
 }
 
-.header .navbar .navbar-toggler .toggle-theme {
-   margin-right: 20px;
-   color: #696969;
-   font-size: 24px;
-   position: absolute;
-   top: 0;
-   left: -150%;
+/* .header .navbar .toggle-theme {
+	color: #696969;
+	font-size: 24px;
+	position: absolute;
+	top: 50%;
+	right: 18%;
+	transform: translateY(-50%);
 }
 
-.header .navbar .navbar-toggler .toggle-theme .light-theme {
+.header .navbar .toggle-theme .light-theme {
    display: none;
 }
 
-.header .navbar .navbar-toggler .toggle-theme .dark-theme i {
+.header .navbar .toggle-theme .dark-theme i {
    transform: rotate(-24deg);
-}
+} */
 
 .header .navbar .navbar-collapse ul li a {
    text-align: center;
