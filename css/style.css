@@ -1,0 +1,93 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Jost", sans-serif;
+}
+
+body,
+html {
+   background-color: blanchedalmond;
+}
+
+.header {
+   top: 40px;
+   background-color: #fff;
+   box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
+}
+
+.header .navbar .navbar-brand {
+   font-size: 30px;
+   color: #189a46;
+   font-weight: 600;
+}
+
+.navbar-light .navbar-toggler {
+   background-color: #189a46;
+   width: 33px;
+   height: 33px;
+   padding: 0 !important;
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+   border: 2px solid rgba(0, 0, 0, 0.1);
+   position: relative;
+}
+
+.navbar-light .navbar-toggler:focus {
+   border: 2px solid #000;
+}
+
+.navbar-light .navbar-toggler i {
+   line-height: 33px;
+}
+
+.header .navbar .navbar-toggler .toggle-theme {
+   margin-right: 20px;
+   color: #696969;
+   font-size: 24px;
+   position: absolute;
+   top: 0;
+   left: -150%;
+}
+
+.header .navbar .navbar-toggler .toggle-theme .light-theme {
+   display: none;
+}
+
+.header .navbar .navbar-toggler .toggle-theme .dark-theme i {
+   transform: rotate(-24deg);
+}
+
+.header .navbar .navbar-collapse ul li a {
+   text-align: center;
+   color: #000c04;
+   font-weight: 400;
+   font-size: 19px;
+}
+
+.header .navbar .navbar-collapse ul li a:hover {
+	color: #189a46;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+   color: #189a46;
+}
+
+.header .navbar-nav .dropdown-menu {
+   position: relative;
+}
+
+.header .navbar-nav .dropdown-menu::before {
+	content: "";
+	width: 14px;
+	height: 14px;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+	position: absolute;
+	top: -7px;
+	left: 49%;
+	transform: rotate(45deg);
+}
