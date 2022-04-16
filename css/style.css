@@ -33,7 +33,7 @@ html {
    font-family: "Jost", sans-serif;
 }
 
-p {
+p, q {
    font-size: 1.2rem;
    line-height: 28px;
    color: var(--font-color);
@@ -478,6 +478,11 @@ a.dropdown-item {
    margin-bottom: 3rem;
 }
 
+.plans .plans-title .small-title {
+   font-weight: 600;
+   font-size: 25px;
+}
+
 .plans .plans-content .item {
    background-color: var(--bg-color);
    border-radius: 0.4rem;
@@ -546,4 +551,96 @@ a.dropdown-item {
    padding: 6px;
    margin-bottom: 5px;
    font-size: 18px;
+}
+
+/* ======PetVideo======  */
+.pet-video {
+   background-color: var(--bg-color);
+}
+.pet-video .pet-title {
+}
+.pet-video .pet-content {
+}
+.pet-video .pet-content .video {
+   position: relative;
+}
+.pet-video .pet-content .video img {
+   border-radius: var(--border-radius);
+}
+.pet-video .pet-content .video a {
+   width: 55px;
+   height: 55px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 1.2rem;
+   background-color: #fff;
+   transition: 0.3s ease-in-out;
+   animation: ripple 1s linear infinite;
+}
+.pet-video .pet-content .video a span {
+   width: 100%;
+   height: 100%;
+}
+.pet-video .pet-content .video a span i {
+   color: var(--primary-color);
+}
+
+@keyframes ripple {
+   0% {
+     box-shadow: 0 0 0 0 rgba(15, 162, 66, 0.164), 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25);
+   }
+ 
+   100% {
+     box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
+   }
+ }
+
+/* ======Feedback======  */
+.feedback {
+   background-color: var(--bg-light);
+}
+
+.feedback .feedback-title .big-title {
+   margin-bottom: 24px;
+}
+
+.feedback .feedback-slider {
+   padding: 40px 30px;
+   border-radius: var(--border-radius);
+   background-color: var(--bg-color);
+}
+
+.feedback .feedback-slider .item blockquote {
+   margin-bottom: 24px;
+}
+
+.feedback .feedback-slider .item blockquote i {
+   color: var(--primary-color);
+   font-size: 20px;
+   vertical-align: text-top;
+}
+
+.feedback .feedback-slider .item .author .author-avt {
+   width: 70px;
+   height: 70px;
+}
+
+.feedback .feedback-slider .item .author .author-info {
+   margin-left: 1rem;
+}
+
+.feedback .feedback-slider .item .author .author-info h6 {
+   font-size: 20px;
+   font-weight: 600;
+   color: var(--heading-color);
+}
+.feedback .feedback-slider .item .author .author-info p {
+   font-size: 17px;
+   color: #777;
+}
+
+.feedback .owl-theme .owl-dots {
+   display: none;
 }
