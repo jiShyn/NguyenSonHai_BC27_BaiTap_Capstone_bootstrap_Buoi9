@@ -33,7 +33,8 @@ html {
    font-family: "Jost", sans-serif;
 }
 
-p, q {
+p,
+q {
    font-size: 1.2rem;
    line-height: 28px;
    color: var(--font-color);
@@ -589,13 +590,15 @@ a.dropdown-item {
 
 @keyframes ripple {
    0% {
-     box-shadow: 0 0 0 0 rgba(15, 162, 66, 0.164), 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25);
+      box-shadow: 0 0 0 0 rgba(15, 162, 66, 0.164),
+         0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25);
    }
- 
+
    100% {
-     box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
+      box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25),
+         0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
    }
- }
+}
 
 /* ======Feedback======  */
 .feedback {
@@ -643,4 +646,79 @@ a.dropdown-item {
 
 .feedback .owl-theme .owl-dots {
    display: none;
+}
+
+/* ======Updated======  */
+.updated {
+   background-color: var(--bg-color);
+}
+
+.updated form .form-control {
+   line-height: 3;
+   border-radius: var(--border-radius);
+}
+
+.updated form .form-control:focus {
+   color: #212529;
+   background-color: #fff;
+   border-color: var(--primary-color);
+   outline: 0;
+   box-shadow: unset;
+}
+
+.updated form .btn-primary {
+   width: 100%;
+   background-color: var(--primary-color);
+}
+
+/* ======Feedback======  */
+.footer {
+   background-color: #111;
+}
+
+.footer .row h4 {
+   color: var(--bs-white);
+   font-size: 20px;
+   line-height: 26px;
+   font-weight: 600;
+   margin-bottom: 25px;
+}
+
+.footer .row p,
+.footer .row a {
+   font-size: 16px;
+   color: var(--para-color);
+   line-height: 28px;
+   text-decoration: none;
+}
+
+.footer .row .contact-info .details p span {
+   font-weight: 700;
+   font-family: -apple-system, sans-serif;
+}
+
+.footer .row .contact-info .social-link a + a {
+   margin-left: 4px;
+}
+
+.footer .company .details a,
+.footer .link .details a,
+.footer .support .details a {
+   display: block;
+   margin-bottom: 5px;
+}
+
+.footer .copy-right hr {
+   color: rgba(103, 99, 99, 0.6);
+   margin-top: 0;
+}
+
+.footer .copy-right p {
+   font-size: 1rem;
+}
+
+.footer .copy-right p a {
+   color: var(--secondary-color);
+   opacity: 0.9;
+   text-decoration: none;
 }
