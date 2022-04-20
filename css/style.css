@@ -26,7 +26,6 @@ html {
    font-family: "Jost", sans-serif;
    background: var(--bg-color);
    color: var(--font-color);
-   background-color: bisque;
 }
 
 * {
@@ -326,6 +325,7 @@ a.dropdown-item {
 }
 
 .slider-caption {
+   width: 100%;
    color: #fff;
    position: absolute;
    z-index: 105;
@@ -372,7 +372,7 @@ a.dropdown-item {
    border-radius: var(--border-radius);
 }
 
-.owl-theme .owl-dots {
+.slider .owl-theme .owl-dots {
    position: absolute;
    left: 50%;
    bottom: 0;
@@ -380,7 +380,7 @@ a.dropdown-item {
    margin-bottom: 2rem;
 }
 
-.owl-theme .owl-dots .owl-dot.active span {
+.slider .owl-theme .owl-dots .owl-dot.active span {
    width: 28px;
    background-color: var(--primary-color);
 }
@@ -431,6 +431,7 @@ a.dropdown-item {
 }
 .why-choose-us .item-1 img {
    border-radius: 0.8rem;
+   width: 100%;
 }
 
 .why-choose-us .item-2 p {
@@ -609,7 +610,7 @@ a.dropdown-item {
    margin-bottom: 24px;
 }
 
-.feedback .feedback-slider {
+.feedback .feedback-slider .item {
    padding: 40px 30px;
    border-radius: var(--border-radius);
    background-color: var(--bg-color);
@@ -721,4 +722,76 @@ a.dropdown-item {
    color: var(--secondary-color);
    opacity: 0.9;
    text-decoration: none;
+}
+
+/* Responsive */
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+   ...;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   .navbar .navbar-brand {
+      font-size: 34px;
+   }
+
+   .theme {
+      top: 0.9rem;
+   }
+
+   .slider .owl-carousel .item {
+      min-height: 580px;
+   }
+
+   .slider-caption h5 {
+      font-size: 50px;
+      line-height: 55px;
+   }
+
+   .big-title {
+      font-size: 35px;
+      line-height: 40px;
+   }
+
+   .plans .plans-content .item {
+      margin-bottom: 2rem;
+   }
+
+   .feedback .owl-theme .owl-dots {
+      display: block;
+   }
+
+   .feedback .owl-theme .owl-nav.disabled + .owl-dots {
+      margin-top: 50px;
+      margin-bottom: 30px;
+   }
+
+   .feedback .owl-theme .owl-dots .owl-dot.active span {
+      width: 28px;
+      background-color: var(--primary-color);
+   }
+
+   .updated .subcribe {
+      max-width: 83.333333%;
+   }
+
+   .updated form input,
+   .updated form button {
+      height: 100%;
+      padding-top: 7px;
+      padding-bottom: 7px;
+   } 
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
 }
