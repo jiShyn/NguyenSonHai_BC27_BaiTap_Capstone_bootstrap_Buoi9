@@ -791,7 +791,7 @@ a.dropdown-item {
       height: 100%;
       padding-top: 7px;
       padding-bottom: 7px;
-   } 
+   }
    .footer .row a {
       margin-right: 15px;
    }
@@ -820,7 +820,7 @@ a.dropdown-item {
       display: block;
       margin-left: 1rem;
    }
-   
+
    .header .theme-lg i {
       transform: rotate(-20deg);
       font-size: 1.3rem;
@@ -829,48 +829,79 @@ a.dropdown-item {
    .navbar-expand-lg .navbar-nav .dropdown-menu {
       left: -50%;
       min-width: 13rem;
-  }
+   }
 
-  .dropdown-item {
-     text-align: left;
-  }
+   .dropdown-item {
+      text-align: left;
+   }
 
-  .slider .owl-carousel .item {
-     min-height: calc(100vh - 40px);
-  }
+   .slider .owl-carousel .item {
+      min-height: calc(100vh - 40px);
+   }
 
-  .slider .item .banner-info-bg {
-     max-width: 700px;
-  }
+   .slider .item .banner-info-bg {
+      max-width: 700px;
+   }
 
-  .plans .plans-content .item {
-   margin-bottom: 0;
-   box-shadow: 0 10px 30px 0 rgb(17 17 17 / 9%);
-}
+   .plans .plans-content .item {
+      margin-bottom: 0;
+      box-shadow: 0 10px 30px 0 rgb(17 17 17 / 9%);
+   }
 
-.plans .plans-content .item-style {
-   padding-bottom: 3.5rem;
-}
+   .plans .plans-content .item-style {
+      padding-bottom: 3.5rem;
+   }
 
-  .plans .item-style .item-style-text {
-     max-width: 100px;
-     line-height: 30px;
-  }
+   .plans .item-style .item-style-text {
+      max-width: 100px;
+      line-height: 30px;
+   }
 
-  .plans .item .buy-btn {
-     margin-top: 2rem;
-  }
+   .plans .item .buy-btn {
+      margin-top: 2rem;
+   }
 
-  .updated .subcribe {
-   max-width: 650px;
-}
-
- 
-
+   .updated .subcribe {
+      max-width: 650px;
+   }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+   p {
+      font-size: 1.2rem;
+   }
+
+   .slider-caption p {
+      font-size: 1.2rem;
+      line-height: 30px;
+   }
+
+   .slider-caption h5 {
+      font-size: 66px;
+      line-height: 76px;
+   }
+
+   .about .wrap {
+      max-width: 700px;
+   }
+
+   .big-title {
+      font-size: 40px;
+   }
+
+   .numbers .item .number {
+      font-size: 50px;
+   }
+
+   .plans .item-style .item-style-text {
+      max-width: initial;
+   }
+
+   .pet-video .wrap {
+      max-width: 950px;
+      margin: 0 auto;
+   }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
