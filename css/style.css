@@ -828,6 +828,11 @@ a.dropdown-item {
 
    .navbar-expand-lg .navbar-nav .dropdown-menu {
       left: -50%;
+      min-width: 13rem;
+  }
+
+  .dropdown-item {
+     text-align: left;
   }
 
   .slider .owl-carousel .item {
