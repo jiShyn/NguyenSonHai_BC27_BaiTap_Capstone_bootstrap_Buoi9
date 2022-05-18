@@ -125,6 +125,43 @@ header {
   color: #696969;
 }
 
+/* ======================= */
+.dropdown-toggle::after {
+  display: none;
+}
+
+a.dropdown-item {
+  font-weight: 400;
+  font-size: 1.2em;
+  position: relative;
+  color: #000c04;
+  padding-top: 0;
+  display: block;
+  padding-bottom: 18px;
+}
+
+a.dropdown-item:hover {
+  color:#189a46;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: transparent;
+}
+
+a.dropdown-item:before {
+  position: absolute;
+  content: '';
+  background: #189a46;
+  width: 0px;
+  height: 1px;
+  bottom: 13px;
+  transition: all 0.4s ease;
+}
+
+a.dropdown-item:hover:before {
+  width: 60%;
+}
+/* ======================= */
 .right-sidebar {
   width: 90px;
   position: fixed;
