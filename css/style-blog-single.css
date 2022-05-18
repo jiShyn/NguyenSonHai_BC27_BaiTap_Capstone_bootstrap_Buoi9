@@ -484,6 +484,10 @@ a.dropdown-item:hover::before {
    display: inline-block;
 }
 
+.blog-single .blog-2 .blockquote-footer {
+   margin-top: 0;
+}
+
 .blog-single .blog-3 .text {
    max-width: 900px;
    margin: 0 auto;
@@ -607,6 +611,10 @@ a.dropdown-item:hover::before {
    font-size: 20px;
    line-height: 30px;
    color: var(--heading-color);
+}
+
+.blog-single .blog-3 .text .right-text .post-navigation a.posts-view label:hover {
+   color: var(--primary-color);
 }
 
 .blog-single .blog-4 .text-style-top {
@@ -739,7 +747,7 @@ a.dropdown-item:hover::before {
 }
 
 .blog-single .blog-6 form input,
-.blog-single .blog-6 form textarea  {
+.blog-single .blog-6 form textarea {
    border-radius: 6px;
    min-height: 60px;
    border: 1px solid var(--bg-light);
@@ -822,6 +830,28 @@ a.dropdown-item:hover::before {
 /* Responsive */
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+   .big-title {
+      font-size: 32px;
+      line-height: 38px;
+   }
+   .blog-single .blog-2 .blockquote q {
+      font-size: 24px;
+      line-height: 34px;
+  }
+
+  .blockquote-footer {
+     font-size: 16px;
+  }
+
+  .blog-single .blog-3 .text .right-text .text-head a {
+   margin: 10px 0 20px;
+   font-size: 22px;
+   line-height: 32px;
+}
+
+.blog-single h3.title-blog {
+   font-size: 28px;
+   line-height: 40px;
 }
 
 @media (min-width: 768px) {
@@ -841,6 +871,34 @@ a.dropdown-item:hover::before {
       font-weight: 600;
       color: #fff;
    }
+
+   .blog-single .blog-3 .text .right-text .text-head a {
+      font-size: 24px;
+      line-height: 34px;
+  }
+
+  .blog-single .blog-3 .text .right-text .sub-head-text {
+     font-size: 20px;
+     margin-bottom: 40px;
+  }
+
+  .blog-single .blog-3 .text .right-text .post-navigation a.posts-view-left  {
+   grid-template-columns: 23% 72%;
+   grid-gap: 4%;
+  }
+
+  .blog-single .blog-3 .text .right-text .post-navigation a.posts-view-right {
+   grid-template-columns: 72% 23%;
+   grid-gap: 4%;
+  }
+
+  .blog-single h3.title-blog {
+   font-size: 24px;
+}
+
+.blog-single h3.title-blog {
+   font-size: 28px;
+}
 
    .footer .row a {
       margin-right: 15px;
@@ -900,6 +958,16 @@ a.dropdown-item:hover::before {
    .dropdown-item {
       text-align: left;
    }
+
+   .blog-single .blog-2 .blockquote q {
+      font-size: 28px;
+      line-height: 40px;
+  }
+
+  .blog-single .blog-3 .text .right-text .text-head a {
+   font-size: 28px;
+   line-height: 40px;
+}
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
