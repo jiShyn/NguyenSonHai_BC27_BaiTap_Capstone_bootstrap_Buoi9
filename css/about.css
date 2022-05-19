@@ -229,7 +229,7 @@ a.dropdown-item:hover:before {
 
 .themes {
    margin-top: 90px;
-   background: url(../IMG/about_1.jpg);
+   background: url(../img/about_1.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -332,7 +332,7 @@ a.read-more:hover {
 
 /* History */
 .history {
-   background: url(../IMG/about_2.jpg);
+   background: url(../img/about_2.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
