@@ -473,6 +473,40 @@ a.dropdown-item:hover::before {
    display: block;
 }
 
+.back-to-top {
+   position: fixed;
+   bottom: 60px;
+   right: 15px;
+   z-index: 2000;
+   font-size: 18px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   color: #fff;
+   width: 48px;
+   height: 48px;
+   background-color: #189a46;
+   padding: 0;
+   line-height: 36px;
+   border-radius: 50px;
+   transition: all 0.3s ease-out;
+}
+
+.back-to-top:hover {
+   opacity: 0.8;
+}
+
+.back-to-top a {
+   text-decoration: none;
+}
+
+.back-to-top p {
+   color: #ffffff;
+   text-align: center;
+   line-height: 48px;
+   font-size: 17px;
+}
+
 /* ======Footer======  */
 .footer {
    background-color: #111;
@@ -569,6 +603,10 @@ a.dropdown-item:hover::before {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+   .circle-icon {
+      top: 3.8rem;
+   }
+
    .header {
       height: 80px;
    }
