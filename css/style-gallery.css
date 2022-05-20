@@ -289,7 +289,7 @@ button:focus:not(:focus-visible) {
    transform: rotate(45deg);
    position: absolute;
    top: -7px;
-   left: 47%;
+   left: 48%;
 }
 
 .navbar-nav .nav-link:hover,
