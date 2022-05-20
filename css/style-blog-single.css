@@ -352,10 +352,6 @@ a.dropdown-item::before {
    bottom: 10px;
 }
 
-a.dropdown-item:hover::before {
-   width: 40%;
-}
-
 /* ======breadcrumb======  */
 .breadcrumb-about {
    margin-top: 90px;
@@ -996,12 +992,17 @@ a.dropdown-item:hover::before {
    }
 
    .navbar-expand-lg .navbar-nav .dropdown-menu {
-      left: -50%;
+      left: -75%;
+      top: 120%;
       min-width: 13rem;
    }
 
    .dropdown-item {
       text-align: left;
+   }
+
+   a.dropdown-item:hover::before {
+      width: 40%;
    }
 
    .blog-single .blog-2 .blockquote q {
