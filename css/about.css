@@ -260,6 +260,7 @@ a.dropdown-item::before {
    .header .theme-lg i {
       transform: rotate(-20deg);
       font-size: 1.3rem;
+      color: #696969;
    }
 
    .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -285,7 +286,7 @@ a.dropdown-item::before {
    height: 100%;
    z-index: 1500;
    right: 0px;
-   top: 40px;
+   top: 80px;
    color: #696969;
 }
 
