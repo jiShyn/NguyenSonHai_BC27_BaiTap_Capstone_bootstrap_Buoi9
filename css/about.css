@@ -113,6 +113,7 @@ button:focus:not(:focus-visible) {
 
 .theme i {
    font-size: 1.3rem;
+   color: #696969;
 }
 
 .theme-lg {
@@ -277,7 +278,6 @@ a.dropdown-item::before {
       width: 40%;
    }
 }
-
 
 /* ======================= */
 .right-sidebar {
